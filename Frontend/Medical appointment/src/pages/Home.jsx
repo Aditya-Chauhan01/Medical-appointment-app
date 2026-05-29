@@ -64,7 +64,7 @@ const Home = () => {
       setLoading(true);
 
       const { data } = await axios.post(
-        "http://localhost:4000/api/appointments/book",
+        "https://medical-appointment-backend-u05w.onrender.com/api/appointments/book",
         {
           patientName,
           reason,
